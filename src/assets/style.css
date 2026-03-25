@@ -1,0 +1,59 @@
+:root {
+  --bg: #0b0e14;
+  --accent: #00f2ff;
+  --text: #e6edf3;
+  --card: #161b22;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: var(--accent);
+  text-shadow: 0 0 15px rgba(0, 242, 255, 0.3);
+}
+
+p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  max-width: 600px;
+}
+
+.btn-google {
+  margin-top: 30px;
+  background: white;
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-google:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
