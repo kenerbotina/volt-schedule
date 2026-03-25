@@ -1,0 +1,12 @@
+.landing-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle, #1a1f29 0%, #0b0e14 100%);
+}
+
+.landing-title span {
+  color: var(--accent);
+}
