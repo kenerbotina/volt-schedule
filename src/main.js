@@ -18,7 +18,8 @@ app.innerHTML = renderLanding();
 // Inicializar Google Sign-In después de que el DOM esté listo
 window.onload = () => {
   google.accounts.id.initialize({
-    client_id: "TU_CLIENT_ID_DE_GOOGLE_AQUI",
+    client_id:
+      "90920038161-so3367l6q5d0vfd7unes31ggri1l350v.apps.googleusercontent.com",
     callback: handleCredentialResponse,
   });
 
